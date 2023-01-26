@@ -4,7 +4,7 @@ import Home from "./page/home";
 function App() {
   return (
     <div className="App">
-      <MoralisProvider>
+      <MoralisProvider initializeOnMount={false}>
         <Home />
       </MoralisProvider>
     </div>
